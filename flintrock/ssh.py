@@ -128,6 +128,10 @@ def ssh_check_output(
         get_pty=True,
         timeout=timeout_seconds)
 
+    for ln in stdout:
+        if 'Wait' not in ln:
+            print(ln)
+
     # NOTE: Paramiko doesn't clearly document this, but we must read() before
     #       calling recv_exit_status().
     #       See: https://github.com/paramiko/paramiko/issues/448#issuecomment-159481997
