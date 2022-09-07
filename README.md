@@ -175,7 +175,7 @@ These packages are not supported by the core contributors and **may be out of da
 If you like living on the edge, install the development version of Flintrock:
 
 ```sh
-pip3 install git+https://github.com/nchammas/flintrock
+pip3 install git+https://github.com/freeuni-oxidizers/flintrock
 ```
 
 If you want to [contribute](https://github.com/nchammas/flintrock/blob/master/CONTRIBUTING.md), follow the instructions in our contributing guide on [how to install Flintrock](https://github.com/nchammas/flintrock/blob/master/CONTRIBUTING.md#contributing-code).
